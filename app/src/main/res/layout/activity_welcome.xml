@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+    <Button
+        android:id="@+id/hakkimizdaButton2"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="32dp"
+        android:onClick="siteyiZiyaret"
+        android:text="Siteyi Ziyaret Et"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hakkimizdaButton" />
+
+    <Button
+        android:id="@+id/hakkimizdaButton"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="116dp"
+        android:onClick="hakkimizda"
+        android:text="Hakkımızda"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/hakkimizdaButton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yeniOyunButton" />
+
+    <Button
+        android:id="@+id/yeniOyunButton"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginBottom="86dp"
+        android:onClick="yeniOyun"
+        android:text="Yeni Oyun"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/hakkimizdaButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

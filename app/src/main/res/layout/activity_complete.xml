@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompleteActivity">
+
+    <TextView
+        android:id="@+id/ucuncuScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="32dp"
+        android:text="100"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/ucuncuImage"
+        app:layout_constraintTop_toBottomOf="@+id/ucuncuImage" />
+
+    <TextView
+        android:id="@+id/ikinciScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="13dp"
+        android:text="100"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/ikinciImage"
+        app:layout_constraintTop_toBottomOf="@+id/ikinciImage" />
+
+    <ImageView
+        android:id="@+id/ucuncuImage"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="231dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="235dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ikinciImage"
+        app:layout_constraintTop_toTopOf="@+id/kazananImage"
+        app:srcCompat="@color/colorPrimaryDark" />
+
+    <ImageView
+        android:id="@+id/buyuksehirImage"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/kazananImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/buyuksehir" />
+
+    <ImageView
+        android:id="@+id/kazananImage"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="165dp"
+        app:layout_constraintEnd_toEndOf="@+id/buyuksehirImage"
+        app:layout_constraintStart_toStartOf="@+id/buyuksehirImage"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/kazananScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="100"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/kazananImage"
+        app:layout_constraintStart_toStartOf="@+id/kazananImage"
+        app:layout_constraintTop_toBottomOf="@+id/kazananImage" />
+
+    <ImageView
+        android:id="@+id/ikinciImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="179dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ucuncuImage"
+        app:layout_constraintEnd_toStartOf="@+id/ucuncuImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ucuncuImage"
+        app:srcCompat="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/bildiriText"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="89dp"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ikinciImage" />
+</androidx.constraintlayout.widget.ConstraintLayout>
