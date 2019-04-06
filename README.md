@@ -2,11 +2,11 @@
 
 Oyun tamamen eğlence amaçlı tasarlanmış olup, herhangi bir siyasi destek ya da gönderme unsuru bulunmamaktadır.
 
-#Oyunun Konu Linki
+# Oyunun Konu Linki
 
 https://www.kodevreni.com/4483-istanbulu-yakala-android-oyunu/
 
-#Oyun İçin Resimler
+# Oyun İçin Resimler
 
 ![İstanbulu Yakala Oyunu Ana Ekran Kod Evreni](https://www.kodevreni.com/uploads/monthly_2019_04/Screenshot_1554565696.thumb.png.5ec04bfa29600ae8707a0a440a33f4af.png)
 
