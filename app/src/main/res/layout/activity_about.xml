@@ -8,12 +8,11 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="434dp"
-        android:layout_height="690dp"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="700dp"
+        android:layout_marginTop="4dp"
         android:text="Bu oyun Halit IZGIN tarafından tamamen eğlence amaçlı tasarlanmıştır. Herhangi bir siyasi destek ya da gönderme yapılmamaktadır."
         android:textSize="36sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="2dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

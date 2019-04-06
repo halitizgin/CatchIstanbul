@@ -8,7 +8,7 @@
 
     <Button
         android:id="@+id/hakkimizdaButton2"
-        android:layout_width="250dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="32dp"
         android:onClick="siteyiZiyaret"
@@ -21,23 +21,24 @@
 
     <Button
         android:id="@+id/hakkimizdaButton"
-        android:layout_width="250dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="116dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
         android:onClick="hakkimizda"
         android:text="Hakkımızda"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/hakkimizdaButton2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/yeniOyunButton" />
 
     <Button
         android:id="@+id/yeniOyunButton"
-        android:layout_width="250dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="62dp"
-        android:layout_marginBottom="86dp"
+        android:layout_marginTop="32dp"
         android:onClick="yeniOyun"
         android:text="Yeni Oyun"
         android:textSize="30sp"

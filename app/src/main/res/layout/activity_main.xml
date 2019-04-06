@@ -15,27 +15,32 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/ekremImage"
         app:layout_constraintEnd_toEndOf="@+id/ekremImage"
+        app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="@+id/ekremImage"
-        app:layout_constraintTop_toTopOf="@+id/binaliScoreText" />
+        app:layout_constraintTop_toTopOf="@+id/binaliScoreText"
+        app:layout_constraintVertical_bias="0.8" />
 
     <TextView
         android:id="@+id/binaliScoreText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="12dp"
         android:text="0"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/binaliImage"
         app:layout_constraintEnd_toEndOf="@+id/binaliImage"
+        app:layout_constraintHorizontal_bias="0.582"
         app:layout_constraintStart_toStartOf="@+id/binaliImage" />
 
     <ImageView
         android:id="@+id/userImage"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginStart="70dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/binaliImage"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/user" />
 
@@ -43,102 +48,102 @@
         android:id="@+id/binaliImage"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/userImage"
         app:layout_constraintStart_toEndOf="@+id/userImage"
         app:srcCompat="@drawable/binali" />
 
     <androidx.gridlayout.widget.GridLayout
         android:id="@+id/gridLayout"
-        android:layout_width="409dp"
-        android:layout_height="403dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="299dp"
+        android:layout_height="298dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toTopOf="@+id/binaliScoreText"
-        app:layout_constraintTop_toBottomOf="@+id/sandikText"
-        tools:layout_editor_absoluteX="2dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
             android:id="@+id/istanbul1"
-            android:layout_width="135dp"
-            android:layout_height="135dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="istanbulClick"
             app:layout_column="0"
             app:layout_row="0"
-            app:srcCompat="@drawable/istanbul"
-            android:onClick="istanbulClick" />
+            app:srcCompat="@drawable/istanbul" />
 
         <ImageView
             android:id="@+id/istanbul2"
-            android:layout_width="135dp"
-            android:layout_height="135dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="istanbulClick"
             app:layout_column="1"
             app:layout_row="0"
-            app:srcCompat="@drawable/istanbul"
-            android:onClick="istanbulClick" />
+            app:srcCompat="@drawable/istanbul" />
 
         <ImageView
             android:id="@+id/istanbul3"
-            android:layout_width="135dp"
-            android:layout_height="135dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="istanbulClick"
             app:layout_column="2"
             app:layout_row="0"
-            app:srcCompat="@drawable/istanbul"
-            android:onClick="istanbulClick" />
+            app:srcCompat="@drawable/istanbul" />
 
         <ImageView
             android:id="@+id/istanbul4"
-            android:layout_width="135dp"
-            android:layout_height="135dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="istanbulClick"
             app:layout_column="0"
             app:layout_row="1"
-            app:srcCompat="@drawable/istanbul"
-            android:onClick="istanbulClick" />
+            app:srcCompat="@drawable/istanbul" />
 
         <ImageView
             android:id="@+id/istanbul5"
-            android:layout_width="135dp"
-            android:layout_height="135dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="istanbulClick"
             app:layout_column="1"
             app:layout_row="1"
-            app:srcCompat="@drawable/istanbul"
-            android:onClick="istanbulClick" />
+            app:srcCompat="@drawable/istanbul" />
 
         <ImageView
             android:id="@+id/istanbul6"
-            android:layout_width="135dp"
-            android:layout_height="135dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="istanbulClick"
             app:layout_column="2"
             app:layout_row="1"
-            app:srcCompat="@drawable/istanbul"
-            android:onClick="istanbulClick" />
+            app:srcCompat="@drawable/istanbul" />
 
         <ImageView
             android:id="@+id/istanbul7"
-            android:layout_width="135dp"
-            android:layout_height="135dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="istanbulClick"
             app:layout_column="0"
             app:layout_row="2"
-            app:srcCompat="@drawable/istanbul"
-            android:onClick="istanbulClick" />
+            app:srcCompat="@drawable/istanbul" />
 
         <ImageView
             android:id="@+id/istanbul8"
-            android:layout_width="135dp"
-            android:layout_height="135dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="istanbulClick"
             app:layout_column="1"
             app:layout_row="2"
-            app:srcCompat="@drawable/istanbul"
-            android:onClick="istanbulClick" />
+            app:srcCompat="@drawable/istanbul" />
 
         <ImageView
             android:id="@+id/istanbul9"
-            android:layout_width="135dp"
-            android:layout_height="135dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="istanbulClick"
             app:layout_column="2"
             app:layout_row="2"
-            app:srcCompat="@drawable/istanbul"
-            android:onClick="istanbulClick" />
+            app:srcCompat="@drawable/istanbul" />
     </androidx.gridlayout.widget.GridLayout>
 
     <TextView
@@ -146,10 +151,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:text="Açılan Sandık Yüzdesi: %0"
         android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -158,9 +164,11 @@
         android:id="@+id/ekremImage"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/binaliImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toEndOf="@+id/binaliImage"
         app:srcCompat="@drawable/ekrem" />
 
@@ -173,7 +181,9 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/userImage"
         app:layout_constraintEnd_toEndOf="@+id/userImage"
+        app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="@+id/userImage"
-        app:layout_constraintTop_toTopOf="@+id/binaliScoreText" />
+        app:layout_constraintTop_toTopOf="@+id/binaliScoreText"
+        app:layout_constraintVertical_bias="0.8" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
